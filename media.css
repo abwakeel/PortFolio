@@ -1,0 +1,533 @@
+@media (max-width: 768px) {
+    .container{
+        overflow: hidden;
+        padding-inline: 15px;
+    }
+    .main-nav{
+        gap: 10px;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .primary-btn{
+        padding: .65rem 1rem;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-content h3{
+        padding-top: 10px;
+    }
+    .hero-content p{
+        padding-block: 1rem;
+    }
+  
+
+
+    .about-me , .contact-section{
+        overflow: hidden;
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        height: 740px;
+        width: 90%;
+        max-width: 1200px;
+    }
+    .about-container{
+        width: 90%;
+        margin: 0 20px;
+        padding: 1rem 2rem 1.5rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .about-content{
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .skill-tags{
+        /* display: none; */
+        padding-block: .62rem;
+    }
+    .skill-tags ul{
+       gap: .42rem;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .skill-tags ul li{
+     font-size: .83rem;
+    }
+    
+    .about-btn{
+        padding: 5px 14px;
+        font-size: 1rem;
+    }
+
+    .skill-content{
+
+    padding-block: 1rem;
+    gap: 0rem;
+
+    }
+
+ 
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: .32rem;
+        padding-top: .5rem;
+    }
+    .skill-1 img{
+        width: 100%;
+    }
+    .contact-btn{
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    #hoverme{
+        position: absolute;
+        top: 0%;
+        left: 3rem;
+        transform: translateX(-50%);
+    }
+
+
+
+    .contact-section{
+        top: 2%;
+        height: 740px;
+    }
+ 
+    .contact-container{
+        flex-direction: column-reverse;
+        /* flex-direction: column; */
+        width: 90%;
+        margin: 0 auto;
+        gap: 0rem;
+        padding: 0rem 1rem 1rem;
+    }
+   
+    .contact-img{
+        width:40vw;
+    }
+    .contact-img img{
+        width:100%;
+        /* height: 50%; */
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form .form{
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .form input, textarea , .submit{
+        width: 380px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 7rem;
+    }
+    label{
+        font-size: 1rem;
+    }
+    .project-container{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        /* gap: 4rem; */
+    }
+    .laptop-container{
+        width: 50%;
+    }
+   
+    .project-1{
+        gap: 1rem;
+    }
+    #project-name{
+       padding: .62rem .62rem;
+        top: -20%;
+    }
+
+}
+@media (max-width:650px){
+    .laptop-container{
+        width: fit-content;
+    }
+    .project-1{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .project-content{
+        padding-inline: 20px;
+        width: 100%;
+    }
+    #project-name{
+        padding: .62rem .52rem;
+         /* top: 0%; */
+     }
+     
+}
+
+@media (max-width:515px){
+    .logo{
+        font-size: 1.3rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .primary-btn{
+        padding: .52rem .62rem;
+        font-size: 1rem;
+    }
+    #pro-btn{
+        padding: .42rem .62rem;
+        font-size: 1rem;
+    }
+    .social-links{
+        font-size: 1rem;
+        gap: .62rem;
+    }
+    .social-links a{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+    }
+    .about-container{
+        width: 100%;
+        margin: 0 auto;
+        gap: .62rem;
+    }
+    .about-me{
+        top: 1%;
+        height: 780px;
+    }
+    .about-content{
+        gap: .5rem;
+    }
+    .skills{
+        padding-block: .5rem;
+    }
+    .skill-1 img{
+        width: 100%;
+    }
+
+    #hoverme{
+        padding: .3125rem .83rem;
+    }
+
+    .contact-btn{
+        margin-top: 0rem;
+        font-size: 1rem;
+    }
+
+    .contact-img{
+        width:55vw;
+    }
+    .contact-img img{
+        width:100%;
+        /* height: 50%; */
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form .form{
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .form input, textarea , .submit{
+        width: 280px;
+        height: 42px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 8rem;
+    }
+
+   
+}
+@media (min-width:507px) and (max-width:515px){
+    .contact-section{
+        top: 1%;
+        height: 720px;
+    }
+    .form input, textarea , .submit{
+        width: 370px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 7rem;
+    }
+}
+@media (min-width: 445px) and (max-width: 600px){
+    .about-container{
+        gap: 0rem;
+    }
+    .about-me{
+        height: 730px;
+    }
+    .about-heading{
+      gap: 0rem;  
+    }
+    .skill-tags{
+        padding: 0;
+    }
+}
+
+@media (max-width: 415px){
+    .about-heading h2 , .skill-content h2{
+        letter-spacing: .1125rem;
+    }
+    .about-heading{
+        gap: .5rem;
+    }
+    .about-container{
+        padding: 1rem 1rem 1.5rem;
+    }
+    .about-content{
+        padding: 0;
+        gap: 0;
+    }
+    .skills{
+        padding-top: 0;
+        column-gap: 0;
+    }
+    
+
+    .contact-btn{
+        margin-top: 0rem;
+    }
+    #hoverme{
+        padding: .4125rem .52rem;
+        font-size: .93rem;
+    }
+    #hoverme::before{
+        top: 95%;
+    }
+
+    .contact-img{
+        width:65vw;
+    }
+    .contact-img img{
+        width:100%;
+    }
+    .contact-form{
+        width: 100%;
+        
+    }
+    .contact-form .form{
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
+    .form input, textarea , .submit{
+        width: 240px;
+        height: 42px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 8rem;
+    }
+   
+    
+}
+
+@media (max-width:355px){
+   .logo{
+        font-size: 1.2rem;
+    }
+    .social-links{
+        font-size: 1rem;
+        gap: .5rem;
+    }
+    .social-links a{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+    }
+    .about-me{
+        top: 2%;
+        height: 850px;
+    }
+    
+    .about-heading{
+        gap: 0;
+    }
+    .about-container{
+        gap: 0rem;
+    }
+    .about-content{
+        gap: 0rem;
+    }
+    .skill-1{
+       padding-left: 0;
+    }
+    .skills{
+        padding-block: 0rem;
+    }
+    #hoverme{
+        left: 3.125rem;
+    }
+    
+
+    .contact-img{
+        width:65vw;
+    }
+    .contact-img img{
+        width:100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form .form{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0;
+    }
+
+    .form input, textarea , .submit{
+        width: 210px;
+        height: 45px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 9rem;
+    }
+    #project-name{
+        top: -25%!important;
+    }
+    
+}
+@media (max-width:334px){
+    #project-name{
+        padding: .62rem .3rem;
+    }
+    .project-content h3{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:326px){
+    .about-me{
+        height: 875px;
+        top: 1%;
+    }
+    .logo{
+        font-size: 1.1rem;
+    }
+    .social-links{
+        font-size: .95rem;
+        gap: .5rem;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .contact-img{
+        width:75vw;
+    }
+    .contact-img img{
+        width:100%;
+        /* height: 50%; */
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form .form{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0;
+    }
+
+    .form input, textarea , .submit{
+        width: 220px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 8rem;
+    }
+    #project-name{
+        padding: .62rem .2rem;
+    }
+    
+}
+@media (max-width:319px){
+    .project-content h3{
+        font-size: 1.45rem;
+    }
+}
+@media (max-width:316px){
+    .logo{
+        font-size: 1rem;
+    }
+    .skill-content h2{
+        font-size: 1.3rem;
+    }
+    .skill-1{
+        padding-left: 10px;
+     }
+     #hoverme{
+        left: 3.7rem;
+    }
+
+
+    .contact-container{
+        width: 100%;
+    }
+    .contact-img{
+        width:75vw;
+    }
+    .contact-img img{
+        width:100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form .form{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 0;
+    }
+
+    .form input, textarea , .submit{
+        width: 220px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    textarea{
+        height: 8rem;
+    }
+    #project-name{
+        padding: .62rem .2rem;
+        font-size: .85rem;
+    }
+}
+
